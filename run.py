@@ -22,7 +22,7 @@ except ImportError:
 logo = """
 \x1b[37m  __  __ ____  _____
  |  \/  | __ )|  ___| *au : rozhak
- | |\/| |  _ \| |_    *fb : fb.com/rozhak.xyz
+ | \\/| |  _ \| |_    *fb : fb.com/rozhak.xyz
  | |  | | |_) |  _|   *gh : github.com/r0zhak
  |_|  |_|____/|_|     *yt : youtube.com/rozhakid
  [x]──────────────────────────────────────────[x]
